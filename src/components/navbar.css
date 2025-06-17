@@ -1,0 +1,18 @@
+.navbar{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 5px solid rgb(206, 211, 54);
+}
+.navbar .logo{
+  width: 100px;
+  height: 100px;
+}
+.categories{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.categories li{
+  padding: 0 20px;
+}

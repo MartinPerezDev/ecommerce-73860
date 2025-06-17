@@ -1,10 +1,15 @@
-import './App.css'
+import './App.css';
+import NavBar from "./components/NavBar";
+import ItemListContainer from './components/ItemListContainer';
+import EjemploContador from './components/EjemploContador';
 
 function App() {
 
   return (
-    <div>
-      <h1>Unidad 1</h1>
+    <div className="app-container">
+      <NavBar />
+      <ItemListContainer saludo={ "Bienvenidos a mi ecomerce" } />
+      <EjemploContador />
     </div>
   )
 }
