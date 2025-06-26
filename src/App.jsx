@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from "./components/NavBar";
 import ItemListContainer from './components/ItemListContainer';
-import EjemploContador from './components/EjemploContador';
+import EjemploContador from './components/ejemplos/EjemploContador';
 
 function App() {
 
