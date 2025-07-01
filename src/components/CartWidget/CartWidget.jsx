@@ -1,11 +1,11 @@
 import "./cartwidget.css"
-import carrito from "../assets/carrito.png";
+import { PiShoppingCartFill } from "react-icons/pi";
 
 const CartWidget = () => {
   return (
     <div className="cartwidget">
-      <img className="logo-cartwidget" src={carrito} alt="" />
-      <p>6</p>
+      <PiShoppingCartFill size={35} />
+      <p>2</p>
     </div>
   )
 }

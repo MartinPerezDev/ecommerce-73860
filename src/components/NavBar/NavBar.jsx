@@ -1,6 +1,6 @@
 import "./navbar.css";
-import corsairLogo from "../assets/corsair.png";
-import CartWidget from "./CartWidget";
+import corsairLogo from "../../assets/logo-corsair.png";
+import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
   return (
