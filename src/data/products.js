@@ -65,4 +65,16 @@ const getProducts = () => {
   });
 };
 
-export default getProducts;
+const getProductById = (productId) => {
+  return new Promise((resolve, reject)=> {
+
+    setTimeout(()=> {
+      //filtrar la lista de productos y traerme solo 1 a traves de su id
+      const product = products.find((product)=> product.id === Number(productId) );
+      resolve(product);
+    }, 3000);
+
+  });
+};
+
+export { getProducts, getProductById };

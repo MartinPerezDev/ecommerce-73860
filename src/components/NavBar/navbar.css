@@ -16,14 +16,16 @@
   list-style: none;
   font-weight: 400;
 }
-.categories li{
+.categories .category{
   height: 100%;
   display: flex;
   align-items: center;
   padding: 0 20px;
   margin: 0 5px;
+  color: white;
+  text-decoration: none;
 }
-.categories li:hover{
+.categories .category:hover{
   cursor: pointer;
   border-bottom: 5px solid rgb(196, 194, 69);
 }
